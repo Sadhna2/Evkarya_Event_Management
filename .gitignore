@@ -1,0 +1,10 @@
+Evkarya/.env
+Evkarya/node_modules/
+
+Evkarya_backend/node_modules/
+Evkarya_backend/.env
+
+Evkarya/dist/
+Evkarya/build/
+Evkarya/.DS_Store
+Evkarya/*.log
