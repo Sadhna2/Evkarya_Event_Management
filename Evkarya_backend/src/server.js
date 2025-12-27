@@ -27,7 +27,10 @@ const app = express();
 app.use(express.json()); 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: [
+  "http://localhost:3000",
+  "https://spiffy-squirrel-74422d.netlify.app"
+],
     credentials: true,
   })
 );
